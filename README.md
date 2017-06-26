@@ -1,3 +1,7 @@
 # Git - CheatSheet
 
-Git ChearSheet about how to use git commands.
+Git CheatSheet makes easy to understand and use Git with very straight forward commands. 
+
+Very helpful for new Git Users::::
+
+
