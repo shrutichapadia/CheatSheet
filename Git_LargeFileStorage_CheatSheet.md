@@ -10,6 +10,7 @@ Git is distributed version control system and there is limit of file size to add
 
 @Terminal 
 Install Git-lfs:
+
       $ brew install git-lfs
         
 Need to install once only
@@ -24,6 +25,7 @@ Initialized empty Git repository:
 ### Step 3:
 
 Git LFS initialized:
+
       $ git lfs install 
     
 This step is in particular file folder to initialized/ hook git lfs in folder.
@@ -37,23 +39,24 @@ output:
 
 Select all types files to track and handled by git lfs
 
-$ git lfs track "*.csv"
-$ git lfs track "*.db"
-$ git lfs track "*.osm"
-$ git lfs track "*.psd"
-$ git lfs track "*.gif"
+      $ git lfs track "*.csv"
+      $ git lfs track "*.db"
+      $ git lfs track "*.osm"
+      $ git lfs track "*.psd"
+      $ git lfs track "*.gif"
 
 Git lfs track pattern of all files .extention
 track with "*.extention" track all files with that extention.
 
 ### Step 5:
 
-$ git add .gitattributes
+      $ git add .gitattributes
 
 this add all track attributes in this file
 
 you can check which file git lfs tracking by 
-$ git lfs track
+      
+      $ git lfs track
 
 Listing tracked patterns
     *.osm (.gitattributes)
@@ -64,7 +67,7 @@ Listing tracked patterns
 
 Start adding and commit files as normally git add file
 
-git add fun_nodes.csv
+      $ git add fun_nodes.csv
 
 git commit -m "initial fun large file commit"
 
@@ -72,11 +75,11 @@ git commit -m "initial fun large file commit"
 
 To push file in git repository
 
-$ git lfs push origin master
+      $ git lfs push origin master
 
 ### Step 8:
 
-$ git push 
+      $ git push 
 
 Note: Now you refresh github repository and you can see all your large file and for small file you can do as normally process.
 
