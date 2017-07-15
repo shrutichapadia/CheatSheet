@@ -45,8 +45,8 @@ Select all types files to track and handled by git lfs
       $ git lfs track "*.psd"
       $ git lfs track "*.gif"
 
-Git lfs track pattern of all files .extention
-track with "*.extention" track all files with that extention.
+Git lfs track pattern of all files .extension
+track with "*.extension" track all files with that extension.
 
 ### Step 5:
 
@@ -81,5 +81,5 @@ To push file in git repository
 
       $ git push 
 
-Note: Now you refresh github repository and you can see all your large file and for small file you can do as normally process.
+Note: Now you refresh github repository and you can see all your large file and for small file you can do as normal process.
 
